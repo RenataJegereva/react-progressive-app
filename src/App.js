@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './App.scss';
 import { ApolloClient, InMemoryCache, gql, ApolloProvider, useQuery } from '@apollo/client';
 
 class App extends Component {
@@ -56,6 +55,7 @@ class App extends Component {
             </em>
             <ExchangeRates />
           </div>
+
         </ApolloProvider>
       </div>
     );
